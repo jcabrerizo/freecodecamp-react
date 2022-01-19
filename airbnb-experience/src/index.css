@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    padding: 20px 36px;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero--container {
+    display: flex;
+    flex-direction: column;
+}
+
+section>img {
+    max-width: 480px;
+    align-self: center;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    /* ADD */
+    display: flex;
+    /* ADD */
+    flex-direction: column;
+    /* ADD */
+    position: relative;
+}
